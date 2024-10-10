@@ -3,30 +3,25 @@
 	margin: 0;
 	border: 0;
 }
-
 *,
 *::before,
 *::after {
 	box-sizing: border-box;
 }
-
 :focus,
 :active {
 	outline: none;
 }
-
 a:focus,
 a:active {
 	outline: none;
 }
-
 nav,
 footer,
 header,
 aside {
 	display: block;
 }
-
 html,
 body {
 	height: 100%;
@@ -38,40 +33,31 @@ body {
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 }
-
 input,
 button,
 textarea {
 	font-family: inherit;
 }
-
 input::-ms-clear {
 	display: none;
 }
-
 button {
 	cursor: pointer;
 }
-
 button::-moz-focus-inner {
 	padding: 0;
 	border: 0;
 }
-
 a,
 a:visited {
 	text-decoration: none;
 }
-
 a:hover {
 	text-decoration: none;
 }
-
 ul li {
 	list-style: none;
-}
-
-img {
+}img {
 	vertical-align: top;
 }
 h1,h2,h3,h4,h5,h6 {
@@ -84,8 +70,9 @@ img{
 	height: auto;
 	display: block;
 }
+
 html{
-scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 .icon{
@@ -95,13 +82,14 @@ scroll-behavior: smooth;
 
 body {
 	font-family: 'Poppins', sans-serif;
-	color: black;
-	background: #E5E5E5;
+	color: white;
+	background: #0C151D;
 	font-weight: 500;
 	transition: 0.2s;
 }
 
 .container {
+	background: url(../img/1101.gif) 0% 99%/70px no-repeat;
 	margin: 0 auto;
 	width: 760px;
 	padding: 0 0 80px 0;
@@ -129,9 +117,8 @@ main {
 	height: 80px;
 	text-align: center;
 	border-radius: 50%;
-	border: 3px solid black;
-	transform: rotate(180deg);
-	transition: 0.5s;
+	border: 2px solid white;
+	transition: 0.2s;
 }
 
 .hero {
@@ -143,7 +130,7 @@ main {
 .hero-thumb-img {
 	width: 215px;
 	height: 215px;
-	border: 4px solid rgb(251, 209, 68);
+	border: 4px solid white;
 	border-radius: 50%;
 	padding: 7px;
 }
@@ -155,7 +142,6 @@ main {
 
 .hero-info-title {
 	text-align: left;
-	color: #3D3D3D;
 	font-size: 46px;
 	line-height: 1.2;
 	font-weight: 400;
@@ -166,8 +152,9 @@ main {
 	margin: 0 0 12px 0;
 	text-align: left;
 	line-height: 1.2;
-	color: #3D3D3D;
+	color: #A3ABB2;
 	font-size: 22px;
+	font-weight: 500;
 }
 
 .hero-info-list {
@@ -177,7 +164,6 @@ main {
 
 .hero-info-list-item {
 	display: block;
-
 }
 
 .hero-info-list-item-link-icon{
@@ -191,20 +177,23 @@ main {
 	display: flex;
 	justify-content: center;
 	column-gap: 90px;
+	color: #A3ABB2;
 	text-align: center;
 	font-size: 22px;
+	font-weight: 500;
 }
 
 .exp-title {
 	margin-bottom: 10px;
 	font-size: 24px;
-	color: #3D3D3D;
+	font-weight: 500;
 }
 
 .exp-text {
 	width: 150px;
-	color: #575757;
 }
+
+
 
 .contacts {
 	display: flex;
@@ -215,21 +204,21 @@ main {
 .contacts-btn {
 	display: flex;
 	position: relative;
-	background-color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+	background-color: #171F26;
 	width: 290px;
 	padding: 28px;
 	border-radius: 10px;
-	font-size: 22px;
+	font-size: 22px;	
 	font-weight: 500;
-	color: #3D3D3D;
-	justify-content: center;
-	align-items: center;
+	color: #A3ABB2;
 }
 
 .contacts-btn:hover:first-child{
 	background:  #FFE071;
 	color: #3D3D3D;
-	transition: 300ms;
+	transition: 500ms;
 }
 
 .contacts-btn:first-child::after{
@@ -242,7 +231,7 @@ main {
 	background-image: url('../img/BottomAlignment.svg');
 	transform: translateY(-50%);
 	opacity: 0;
-	transition: opacity 300ms;
+	transition: opacity 500ms;
 }
 .contacts-btn:first-child:hover::after{
 	opacity: 1;
@@ -251,7 +240,7 @@ main {
 .contacts-btn:hover:last-child{
 	background: #FFE071;
 	color: #3D3D3D;
-	transition: 300ms;
+	transition: 500ms;
 }
 
 .changeinfo {
@@ -260,7 +249,7 @@ main {
 	margin: 0 0 65px 0;
 	padding: 18px 24px;
 	border-radius: 10px;
-	background-color: #fff;
+	background-color: #171F26;
 	
 }
 
@@ -269,20 +258,19 @@ main {
 	width: 350px;
 	height: 80px;
 	font-size: 22px;
-	font-weight: 500;
-	color: #3D3D3D;
+	color: #A3ABB2;
 }
 
 .changeinfo-btn:first-child{
-	background-color: #D7D7D7;
+	background-color: #0C151D;
 }
 
 .changeinfo-btn:last-child{
-	background-color: #fff;
+	background-color: #171F26;
 }
 
 .changeinfo-btn:last-child:hover{
-	background-color: #D7D7D7;
+	background-color: #0C151D;
 	transition: 300ms;
 }
 
@@ -310,7 +298,7 @@ main {
 	width: 100%;
 	height: 85%;
 	padding-top: 80px;
-	background-color: rgb(215, 215, 215);
+	background-color: #FFE071;
 	opacity: 90%;
 	transition: 500ms;
 	text-align: center;
@@ -329,7 +317,7 @@ main {
 }
 
 footer{
-	color: #575757;
+	color: #A3ABB2;
 	font-weight: 500;
 	text-align: center;
 }
